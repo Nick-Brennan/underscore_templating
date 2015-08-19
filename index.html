@@ -17,17 +17,18 @@
 </head>
 <body>
 
-  <h1>GitHub Superstars</h1>
+  <h1 style="text-align: center; font-size: 50px; font-family: helvetica">GitHub Superstars</h1>
 
   <!-- octocat template placeholder -->
   <div id="octocats-placeholder"></div>
 
   <!-- octocat template -->
   <script type="text/template" id="octocat-template">
-    <div class="octocat">
+    <div class="octocat" style="margin: auto; text-align: center">
       <p>
-        <%= lastName %>, <%= firstName %> 
+        <span style="font-size: 30px; font-family: sans-serif"><%= lastName %>, <%= firstName %></span> <br><a href='http://www.github.com/<%= githubUsername %>'><img src=<%= image %> height= '100px'></a>
       </p>
+      
     </div>
   </script>
   
